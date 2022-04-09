@@ -7,13 +7,12 @@ namespace a
     {
         static void Main(string[] args)
         {
-            int rods = Convert.ToInt32(Console.ReadLine()); //läser första raden
-            int result = 0;				//Deklarer variablen för pillarna
-
-        for (int i = 0; i < rods; i++)				//
+            int rods = Convert.ToInt32(Console.ReadLine()); 
+            int result = 0;			
+            
+        for (int i = 0; i < rods; i++)				
             {
-                result += Convert.ToInt32(Console.ReadLine());   //plussar i ihop rad för rad
-            }
+                result += Convert.ToInt32(Console.ReadLine());  
 
         Console.WriteLine(result - rods + 1);
         }
